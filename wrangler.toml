@@ -1,0 +1,14 @@
+name = "warp"
+main = "src/index.ts"
+compatibility_date = "2023-08-23"
+
+[[d1_databases]]
+binding = "DATABASE"
+database_name = "warp-d1"
+database_id = "5f54a187-2dd9-4fb9-bfd8-8ded6522e85b"
+
+[triggers]
+crons = [
+    '* * * * *', # every minute
+]
+
